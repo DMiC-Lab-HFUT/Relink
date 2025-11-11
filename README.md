@@ -33,7 +33,8 @@ pip install -r requirements.txt
 ### Configure LLM and embedding models in config.py
 
 
-### 2. Start path_scorer Server
+### 2. Start the Path Scoring Server
+Download the weights from: [Google Drive](https://drive.google.com/file/d/1SvuE7HMzhg8vIjXgm5uLlAnuvs1GF1kQ/view?usp=sharing) and place them in the `./app/checkpoint` folder.
 ```bash
 cd app/path_scorer
 python server.py
