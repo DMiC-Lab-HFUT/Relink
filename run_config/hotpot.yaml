@@ -1,0 +1,16 @@
+
+dataset: "hotpot"
+
+neo4j:
+  graph:
+    uri: "neo4j://localhost:9021"
+    username: "neo4j"
+    password: "12345678"
+  occurrence_graph:
+    uri: "neo4j://localhost:9023"
+    username: "neo4j"
+    password: "12345678"
+
+result_dir: "results/hotpot"
+
+

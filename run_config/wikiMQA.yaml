@@ -1,0 +1,14 @@
+
+dataset: "wikiMQA"
+
+neo4j:
+  graph:
+    uri: "neo4j://localhost:9011"
+    username: "neo4j"
+    password: "12345678"
+  occurrence_graph:
+    uri: "neo4j://localhost:9013"
+    username: "neo4j"
+    password: "12345678"
+
+result_dir: "results/wikiMQA"
